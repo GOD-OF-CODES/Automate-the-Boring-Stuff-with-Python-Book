@@ -1,0 +1,10 @@
+set1={1,2,3,4,5,6,7,8,9}
+set2={1,2,3,4}
+intersection_result=set1.intersection(set2)
+print(intersection_result)
+difference_result=set1.difference(set2)
+print(difference_result)
+symmetric_difference_result=set1.symmetric_difference(set2)
+print(symmetric_difference_result)
+set1.discard(11)
+print(set1)
